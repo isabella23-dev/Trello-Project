@@ -780,78 +780,10 @@ header:hover{
         text-align: center;
     }
 }
-/* footer */
-/* .footstool{
-    background-color: #172B4D;
-}
-.foothead{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #505F79;
-    padding-bottom: 24px;
-    margin-bottom: 24px;
-}
-.foothead a{
-    color: #9fadbc;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-}
-.fonthead a :hover{
-    text-decoration: underline;
-}
-.column1{
-    margin-bottom: 20px;
-    
-}
-.column1 h5{
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 4px ;
-}
-.column1 p{
-    color: #ffffff;
-    font-size: 13px;
-}
-.footelly{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-}
-
-.footls h5{
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: bold;
-}
-.footls a{
-    color: #ffffff;
-    text-decoration: none;
-}
-.footls a :hover{
-    text-decoration: underline;
-}
-.footrs{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-.footrsimg {
-    border: 2px solid yellow;
-    width: 16px;
-    height: 16px;
-    opacity: 10;
-    cursor: pointer;
-    transition: opacity o.2s ease;
-}
-.footrsimg  :hover{
-    opacity: 1;
-} */
 
 
+
+        /* footer */
 footer {
     background-color: #172B4D;
     width: 100%;
