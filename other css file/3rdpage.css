@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* nav */
+header{
+    position: fixed;
+    width: 100%;
+    transition: 1s;
+    top: 0px;
+    z-index: 99;
+}
+header:hover{
+    box-shadow: 0px 6px 8px rgba(128, 128, 128, 0.267);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    padding-left: 50px;
+    background-color: white;
+    border-bottom: 1px solid #eaeaea;
+    
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.navlinks{
+    display: flex;
+    gap: 2em;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #42526e;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.btn2{
+    background-color: #0065FF;
+    color: white;
+    padding: 10px 18px;
+    /* border-radius: 4px; */
+    /* text-decoration: none; */
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn2:hover{
+    background-color: #0747a6;
+    text-decoration: underline;
+}
+.fa-bars{
+    font-size: 1.5em;
+    display: none;
+}
+
+        /* header media query */
+@media(max-width: 900px){
+    .login, .btn2{
+        display: none;
+    }
+    .navlinks{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+/* herosection */
+.seamlessly{
+    /* border: 2px solid black; */
+}
+
+.seamlessly h3{
+    font-weight: 500;
+    font-size: 46px;
+    color: #091E4E;
+}
+.devices{
+    width: 80%;
+    margin: 8em auto;
+    text-align: center;
+}
+
+.device{
+    margin-top:60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.web h3{
+    color: #091E42;
+    font-size: 36px;
+    margin-bottom: 30px;
+
+}
+
+.panky a{
+    border: 1px solid #0065FF;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+.panky a:hover{
+    background-color: #DEEBFF;
+    text-decoration: underline;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.screen{
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.apple{
+    width: 140px;
+    
+}
+/* media query */
+@media(max-width: 990px){
+    .seamlessly h3{
+        font-size: 44px;
+    }
+}
+@media(max-width: 767px){
+    .seamlessly{
+        width: 80%;
+        margin: auto;
+    }
+    .seamlessly h3{
+        font-size: 32px;
+    }
+    .device{
+        margin-top: 10px;
+    }
+    .web h3{
+        font-size: 24px;
+        margin-bottom: 20px
+    }
+
+}
+@media(max-width: 575px){
+    .seamlessly{
+        width: 100%;
+    }
+    .device{
+        flex-direction: column;
+        gap: 5em;
+    }
+    .button{
+        align-items: center;
+    }
+}
+@media(max-width: 400px){
+    .seamlessly h3{
+        font-size: 28px;
+    }
+}
+/* section 2 */
+.sec2{
+    padding-bottom: 80px;
+}
+.sect2{
+    width: 80%;
+    margin: auto;
+}
+.sect2 h2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #091E42;
+}
+.sec20{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.con img{
+    width: 60px;
+    margin-bottom: 5px;
+}
+.con h3{
+    font-size: 24px;
+    font-weight: 500; 
+    color: #091E42;
+    margin-bottom: 5px;
+}
+.con p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #091E42;
+    margin-bottom: 20px;
+}
+.con a{
+    padding: 14px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #091E42;
+
+    
+}
+.con a:hover{
+    background-color: #DFE1E6;
+}
+@media(max-width: 990px){
+    .sec20{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 5em;
+    }
+
+    .sect2 h2{
+        font-size: 32px;
+    }
+}
+@media(max-width: 767px){
+    .sect2{
+        width: 100%;
+    }
+    .sec20{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sect2 h2{
+        font-size: 24px;
+    }
+}
