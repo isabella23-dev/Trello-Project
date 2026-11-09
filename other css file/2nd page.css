@@ -221,12 +221,14 @@ header:hover{
 .note h4{
     font-size: 30px;
     padding-top: 4em;
+     color: black;
 }
 .note p{
     font-size: 20px;
     width: 80%;
     display: block;
     margin: auto;
+     color: black;
     margin-bottom: 20px;
 }
 .note a{
