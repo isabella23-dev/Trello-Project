@@ -146,9 +146,7 @@ header:hover{
     align-items: center;
     gap: 2em;
 }
-.dro{
-    
-}
+
 
 .login{
     text-decoration: none;
@@ -191,6 +189,7 @@ header:hover{
 }
 
 
+
         /* Hero section */
 .hero-sect{
     background-color: #F4F5F7;
@@ -208,6 +207,7 @@ header:hover{
 }
 .hero-banner p{
     font-weight: 400;
+    color: black;
 }
 .hero-main{
     display: flex;
@@ -305,10 +305,12 @@ header:hover{
 .amad{
     font-weight: 700;
     font-size: medium;
+    color: black;
 }
 .mad{
     width: 40%;
     font-size: large;
+    color: black;
 }
 .caro-div{
     width: 80%;
@@ -469,6 +471,7 @@ header:hover{
    padding-top: 2.5em;
 
 }
+
 .textt h3{
     font-size: 2.3em;
     margin-bottom: 0.3em;
@@ -620,10 +623,12 @@ header:hover{
 .smarter h5{
     font-size: 15px;
     font-weight: 700;
+    color: black;
 }
 .smarter p{
     width: 50%;
     font-size: 20px;
+    color: black;
 }
 
 .git{
@@ -657,9 +662,11 @@ header:hover{
 }
 .flex h4{
     margin-top: 1.5em;
+    color: black;
 }
 .flex p{
     margin-bottom: 2em;
+    color: black;
 }
 .flex a{
     border: 1px solid blue;
