@@ -7,7 +7,9 @@
     list-style-type: none;
 }
 
-
+body{
+    background-color: white;
+}
 /* nav */
 header{
     position: fixed;

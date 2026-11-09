@@ -5,6 +5,9 @@
     list-style-type: none;
     text-decoration: none;
 }
+body{
+    background-color: white;
+}
 header{
     width: 100%;
     background-color: #0052CC;
