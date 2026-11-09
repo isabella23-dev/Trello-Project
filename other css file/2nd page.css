@@ -292,7 +292,7 @@ header:hover{
     font-size: 36px;
     font-weight: 500;
     margin-bottom: .5em;
-    color: #091E42;
+    color: black;
 }
 .listt li{
     list-style-type: disc;
@@ -300,7 +300,7 @@ header:hover{
     font-weight: 400;
     width: 100%;
     margin: auto;
-    color: #091E42;
+    color: black;
     margin-bottom: 10px;
     /* margin-bottom: 1em; */
 }
@@ -384,11 +384,22 @@ header:hover{
 .trellop h4{
     font-size: 30px;
     font-weight: 600;
+     color: black;
 }
 .topic p{
     width: 50%;
     margin: auto;
+     color: black;
     font-size: 20px;
+}
+.wired{
+    color: black;
+}
+.wsj{
+    color: black;
+}
+.tc{
+    color: black;
 }
 /* media query */
 @media(max-width: 767px){
@@ -425,6 +436,7 @@ header:hover{
 .jotter h4{
     font-size: 20px;
     font-weight: 400;
+    color: black;
 }
 .jotter a{
     color: #0747a6;
